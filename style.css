@@ -1,0 +1,48 @@
+#body{
+    background-color:darkcyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    text-align: right ;
+    padding-right: 10px;
+    grid-column: span 4;
+    align-content: center;
+    background-color: blue;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 30px;
+}
+#calc{
+    background-color: #060202;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 60px ;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(6, 80px); 
+    gap: 1em;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+}
+.b{
+    border-radius: 100%;
+    font-weight: 800;
+    font-size: 110%;
+    background-color: grey;
+}
+#add , #sub , #multiply , #divide , #eq {
+    background-color : #ef4000;
+}
+.b:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+.b:active{
+        transform: scale(0.95);
+    }
+
+
