@@ -35,7 +35,7 @@
     background-color: grey;
 }
 #add , #sub , #multiply , #divide , #eq {
-    background-color : #ef4000;
+    background-color : pink;
 }
 .b:hover{
         opacity: 0.8;
